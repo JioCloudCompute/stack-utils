@@ -1,5 +1,4 @@
 #Now restart all the screens
-screen -S stack -p 18 -X stuff `echo '^C^[[A\n'`
 screen -S stack -p 'n-api' -X stuff `echo '^C^[[A\n'`
 screen -S stack -p 'n-cond' -X stuff `echo '^C^[[A\n'`
 screen -S stack -p 'n-crt' -X stuff `echo '^C^[[A\n'`
